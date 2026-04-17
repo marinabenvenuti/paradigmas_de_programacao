@@ -16,4 +16,5 @@ class Board:
             self.__matrix[i+1][0] = puzzle['puzzles'][id]['line3'][i]
 
     def print_board(self):
-        print(self.__matrix)
+        for i in range(self.__order+2):
+            print(f"{self.__matrix[i]}\n")
