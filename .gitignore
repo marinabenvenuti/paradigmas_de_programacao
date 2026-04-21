@@ -2,3 +2,6 @@ __pycache__/
 *.o
 *.hi
 venv/
+LICENSE
+haskell.cabal
+CHANGELOG.md
