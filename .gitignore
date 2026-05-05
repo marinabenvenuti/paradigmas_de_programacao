@@ -1,6 +1,7 @@
 __pycache__/
 *.o
 *.hi
+/exe
 venv/
 LICENSE
 haskell.cabal
